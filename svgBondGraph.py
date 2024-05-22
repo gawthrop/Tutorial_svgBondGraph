@@ -463,7 +463,6 @@ def model(svg,convertR=False,convertCe=False,quiet=False,rename=True,parRename={
     f = open(filename,'w')
 
     header = ("import BondGraphTools as bgt\n"
-              "import modularBondGraph as mbg\n"
               "import sympy as sp\n\n"
               "def model():\n"
               "{0}{3} Acausal bond graph {1}_abg.py\n"
